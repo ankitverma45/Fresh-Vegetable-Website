@@ -1,0 +1,9 @@
+.input{
+    display: flex;
+    column-gap: .5rem;
+}
+
+.input input{
+    width:2.4rem;
+    padding-left: .5rem;
+}

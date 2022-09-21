@@ -1,0 +1,53 @@
+.relate{
+    position: relative;
+}
+.button {
+    cursor: pointer;
+    width: 2.5rem;
+    font: inherit;
+    border: none;
+    background-color: rgb(61, 119, 19);;
+    border-radius: 50%;
+    position: relative;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 5px 0 0px 0;
+}
+img.avatar {
+    width: 100%;
+    border-radius:100%;
+}
+.profile{
+    cursor: pointer;
+    margin-top: 7px;
+   position: absolute;
+   color: rgb(255, 255, 255);
+   background-color: rgb(61, 119, 19);
+}
+.profile div{
+    padding: 8px;
+}
+
+@media(max-width:1000px){
+    .imgcontainer{
+            order: 1;
+            grid-column-start: 3;
+            grid-column-end: 3;
+    }
+}
+@media(max-width:1000px){
+    .profile{
+        margin-top: 4px;
+    }
+}
+@media(max-width:400px){
+    img.avatar {
+        width: 85%;
+        border-radius:100%;
+    }
+    .profile{
+        margin-top: 3px;
+        margin-left: -1.5rem;
+    }
+}
