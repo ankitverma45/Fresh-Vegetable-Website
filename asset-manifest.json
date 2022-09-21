@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Fresh-Vegetable-Website/static/css/main.23553df7.css",
+    "main.js": "/Fresh-Vegetable-Website/static/js/main.9e242c2c.js",
+    "static/media/veget.webp": "/Fresh-Vegetable-Website/static/media/veget.c2212f7adfaf01dabfc7.webp",
+    "static/media/image10.jpg": "/Fresh-Vegetable-Website/static/media/image10.94229419ad2a205f7f15.jpg",
+    "static/media/image11.webp": "/Fresh-Vegetable-Website/static/media/image11.39cbfaa5771ae209a2ed.webp",
+    "static/media/image3.jpg": "/Fresh-Vegetable-Website/static/media/image3.37f90f2a922ceb40463c.jpg",
+    "static/media/image2.webp": "/Fresh-Vegetable-Website/static/media/image2.89381db99090c730224f.webp",
+    "static/media/image.jpg": "/Fresh-Vegetable-Website/static/media/image.44ec4bf56c661a5c91ca.jpg",
+    "static/media/image15.jpg": "/Fresh-Vegetable-Website/static/media/image15.3097b342d50a4da47d8b.jpg",
+    "static/media/image12.jpg": "/Fresh-Vegetable-Website/static/media/image12.61831220a0c9e70e3c87.jpg",
+    "static/media/image14.jpg": "/Fresh-Vegetable-Website/static/media/image14.8d6862bd477b50e0bbf1.jpg",
+    "static/media/image5.jpg": "/Fresh-Vegetable-Website/static/media/image5.a48f83779395017abac1.jpg",
+    "static/media/image7.webp": "/Fresh-Vegetable-Website/static/media/image7.e1ef86c33bc1686e35b1.webp",
+    "static/media/image1.jpg": "/Fresh-Vegetable-Website/static/media/image1.7f2b9d60930557492d89.jpg",
+    "static/media/image16.jpg": "/Fresh-Vegetable-Website/static/media/image16.e1239a9fdbdabafcb7db.jpg",
+    "static/media/image6.jpg": "/Fresh-Vegetable-Website/static/media/image6.2a04eb15dd1d20b0f1dc.jpg",
+    "static/media/image4.jpg": "/Fresh-Vegetable-Website/static/media/image4.5aaba1db28725cf9a004.jpg",
+    "static/media/image13.jpg": "/Fresh-Vegetable-Website/static/media/image13.db358b58f50451f61503.jpg",
+    "index.html": "/Fresh-Vegetable-Website/index.html",
+    "main.23553df7.css.map": "/Fresh-Vegetable-Website/static/css/main.23553df7.css.map",
+    "main.9e242c2c.js.map": "/Fresh-Vegetable-Website/static/js/main.9e242c2c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23553df7.css",
+    "static/js/main.9e242c2c.js"
+  ]
+}
