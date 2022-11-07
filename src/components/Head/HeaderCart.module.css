@@ -2,7 +2,7 @@
   cursor: pointer;
   font: inherit;
   border: none;
-  background-color: #084213;
+  background-color: #000000;
   color: white;
   padding: 0.5rem 2rem;
   display: flex;
@@ -14,7 +14,7 @@
 
 .button:hover,
 .button:active {
-  background-color: #005f00;
+  background-color: #676667;
 }
 
 .icon {
@@ -24,7 +24,7 @@
 }
 
 .badge {
-  background-color: #00d35b;
+  background-color: #181a1f;
   padding: 0.25rem 1rem;
   border-radius: 25px;
   margin-left: 1rem;
@@ -33,7 +33,7 @@
 
 .button:hover .badge,
 .button:active .badge {
-  background-color: #007119;
+  background-color: #03012830;
 }
 
 @media (max-width: 400px) {
@@ -42,7 +42,7 @@
     border-radius: 25px;
   }
   .badge {
-    background-color: #00d35b;
+    background-color: #5d5d5e;
     padding: 0.1rem .5rem;
     border-radius: 25px;
     margin-left: .5rem;

@@ -10,7 +10,7 @@ const change=()=>{
       <div>
         <h2>{props.name}</h2>
         <div className={classes.summary}>
-          <span className={classes.price}>{props.price}.0</span>
+          <span className={classes.price}>$ {props.price}</span>
           <span className={classes.amount}>x {props.amount}</span>
         </div>
       </div>

@@ -1,0 +1,88 @@
+.all{
+    display: flex;
+    column-gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+.container3{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(https://st.depositphotos.com/1522993/4737/v/600/depositphotos_47372005-stock-illustration-orange-blue-background-with-triagles.jpg);
+    background-repeat: no-repeat;
+    background-size: 100.0rem;
+    height: 15.0rem;
+    width: 32vw;
+    margin-top: 1.0rem;
+    padding: .5rem;
+}
+.image-2{
+    margin-top: 1rem;
+    width: 14vw;
+    height: 22vh;
+ 
+}
+.container-textsss{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.0rem;
+    margin-top: 2.0rem;
+    font-size: 1.7rem;
+
+}
+.line{
+    text-decoration-line: line-through; 
+}
+
+@media(max-width:770px){
+    .all{
+        margin-top: 4rem;
+    }
+    .container3{
+        height: 15.0rem;
+        width: 48vw;
+    }
+    .image-2{
+        width: 15vw;
+        height: 20vh;
+        margin-top: 2.0rem;
+    }
+    .container-textsss{
+        margin-top: 1.3rem;
+        font-size: 1.5rem;
+    }
+}
+@media(max-width:500px){
+   
+    .container3{
+        height: 11.0rem;
+        width: 48vw;
+        padding: .5rem;
+    }
+    .image-2{
+        width: 17vw;
+        height: 15vh;
+        margin-top: 1.3rem;
+    }
+    .container-textsss{
+        margin-top: 1.3rem;
+        font-size: 1.3rem;
+    }
+}
+@media(max-width:400px){
+   
+    .container3{
+        height: 12.0rem;
+        width: 90vw;
+        padding: .5rem;
+    }
+    .image-2{
+        width: 30vw;
+        height: 20vh;
+        margin-top: 1.0rem;
+    }
+    .container-textsss{
+        margin-top: 1rem;
+        font-size: 1.2rem;
+    }
+}

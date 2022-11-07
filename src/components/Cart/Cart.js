@@ -4,7 +4,7 @@ import classes from "./Cart.module.css";
 import CartItem from "./CartItem"
 import { useDispatch } from "react-redux"
 import { useState } from "react";
-import Chackout from "./Chackout";
+// import Chackout from "./Chackout";
 const Cart = (props) => {
 
   const [isCheckout, setIsCheckout] = useState(false);
@@ -28,10 +28,6 @@ const Cart = (props) => {
           id:id
         })
       }
-      
-      const orderHandler=()=>{
-        setIsCheckout(true)
-      }
 
       const hasItem=reduxData.length>0;
 
@@ -42,7 +38,7 @@ const Cart = (props) => {
 
   const modalAction=(<div className={classes.actions}>
     <button className={classes["button--alt"]} onClick={props.hideCart}>Close</button>
-   {hasItem && <button className={classes.button} onClick={orderHandler}>Order</button> }
+   {hasItem && <button className={classes.button} >Order</button> }
   </div>)
 
   return (
@@ -50,9 +46,8 @@ const Cart = (props) => {
         {cartitems}
       <div className={classes.total}>
         <span>Total Amount</span>
-        <span>{reduxTotalAmount}.0 Rs</span>
+        <span>$ {reduxTotalAmount}</span>
       </div>
-       { isCheckout && hasItem && <Chackout onCancel={props.hideCart}/>}
        { !isCheckout &&  modalAction}
     </Modal>
   );

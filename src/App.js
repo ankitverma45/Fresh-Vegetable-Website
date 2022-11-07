@@ -1,5 +1,5 @@
 import Header from "./components/Head/Header";
-import Vegetable from "./components/Vegetable/Vegetable";
+import Mobile from "./components/Mobile/Mobile";
 import { useState } from "react";
 import Cart from "./components/Cart/Cart";
 
@@ -18,7 +18,7 @@ function App() {
     <>
        {isShowCart && <Cart hideCart={handlerHideCart}/>}
        <Header onShowCart={HandlershowCart}/>
-      <Vegetable />
+      <Mobile />
     </>
   )
 }

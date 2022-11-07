@@ -1,8 +1,5 @@
 import classes from "./Header.module.css"
 import HeaderCart from "./HeaderCart";
-import HeaderInput from "./HeaderInput";
-import HeaderLogout from "./HeaderLogout";
-import mealsImage from "../../Image/veget.webp";
 import { useState } from "react";
 
 const Header = (props) => {
@@ -10,13 +7,10 @@ const Header = (props) => {
   return (
     <>
       <header className={classes.header }>
-        <h1>Ankit</h1>
-        <HeaderInput hide={setIsShow} show={IsShow}/>
+        <h1>React</h1>
         <HeaderCart showCart={props.onShowCart} />
-        <HeaderLogout />
       </header>
       { IsShow && <div className={classes['main-image']}>
-        <img src={mealsImage} alt='food!' />
       </div>}
     </>
   );

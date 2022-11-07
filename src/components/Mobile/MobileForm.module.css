@@ -1,0 +1,28 @@
+.form button{
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+    background-color: rgb(14, 49, 53);
+    padding: 2vh 0;
+    width: 32vw;
+}
+.form button:hover{
+    background-color: rgb(41, 58, 40);
+}
+
+@media(max-width:770px){
+    .form button{
+        width: 48vw;
+    }
+}
+@media(max-width:500px){
+    .form button{
+        width: 48vw;
+    }
+}
+@media(max-width:400px){
+    .form button{
+        width: 90vw;
+    }
+}
